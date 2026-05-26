@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotaApi", "DotaApi\DotaApi.csproj", "{5B771F83-A6BC-421E-B5B4-EB6CC39C8045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotaTranspiler.Core", "DotaTranspiler.Core\DotaTranspiler.Core.csproj", "{1B725DEE-EE14-4EBD-91F8-9ECEFF8D51B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotaTranspiler.Cli", "DotaTranspiler.Cli\DotaTranspiler.Cli.csproj", "{C7E89642-3FD7-4295-9439-B6C24B917D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotaTranspiler.Tests", "DotaTranspiler.Tests\DotaTranspiler.Tests.csproj", "{360256DA-C43B-4324-AB45-A4A0728CC0B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B771F83-A6BC-421E-B5B4-EB6CC39C8045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B771F83-A6BC-421E-B5B4-EB6CC39C8045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B771F83-A6BC-421E-B5B4-EB6CC39C8045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B771F83-A6BC-421E-B5B4-EB6CC39C8045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B725DEE-EE14-4EBD-91F8-9ECEFF8D51B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B725DEE-EE14-4EBD-91F8-9ECEFF8D51B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B725DEE-EE14-4EBD-91F8-9ECEFF8D51B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B725DEE-EE14-4EBD-91F8-9ECEFF8D51B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E89642-3FD7-4295-9439-B6C24B917D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E89642-3FD7-4295-9439-B6C24B917D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E89642-3FD7-4295-9439-B6C24B917D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E89642-3FD7-4295-9439-B6C24B917D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360256DA-C43B-4324-AB45-A4A0728CC0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360256DA-C43B-4324-AB45-A4A0728CC0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360256DA-C43B-4324-AB45-A4A0728CC0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360256DA-C43B-4324-AB45-A4A0728CC0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
